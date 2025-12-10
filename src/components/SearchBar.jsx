@@ -13,7 +13,7 @@ function SearchBar({ username, setUsername, onSearch }) {
   return (
     <div className={styles.wrapper}>
       <button className={styles.searchButton} onClick={onSearch}>
-        <img className={styles.img} src={searchIcon}></img>
+        <img className={styles.img} src={searchIcon} alt="Search"></img>
       </button>
       <input
         placeholder="username"

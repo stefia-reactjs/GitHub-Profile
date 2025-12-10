@@ -59,7 +59,7 @@ function App() {
   }, [username]);
 
   return (
-    <div className={styles.wrapper}>
+    <main className={styles.wrapper}>
       <div className={styles.header}>
         <SearchBar
           username={username}
@@ -76,7 +76,7 @@ function App() {
           </>
         )}
       </div>
-    </div>
+    </main>
   );
 }
 

@@ -35,11 +35,11 @@ function Repo({ repo }) {
       {description && <div className={styles.description}>{description}</div>}
       <div className={styles.footer}>
         <div className={styles.stat}>
-          <img src={nestingIcon} />
+          <img src={nestingIcon} alt="Nesting" />
           <span className={styles.stat}>{forks_count}</span>
         </div>
         <div className={styles.stat}>
-          <img src={starIcon} />
+          <img src={starIcon} alt="Star" />
           <span>{stargazers_count}</span>
         </div>
 
