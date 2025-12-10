@@ -1,0 +1,16 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 16px 20px;
+  background-color: #111729;
+  border-radius: 10px;
+  max-height: 25px;
+}
+
+.label {
+  color: #97a3b6;
+  font-weight: 500;
+  padding-right: 20px;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+}

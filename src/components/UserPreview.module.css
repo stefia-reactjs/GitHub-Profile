@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  background-color: #20293a;
+  width: 340px;
+  margin: 10px auto 0;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+}
+.name {
+  font-weight: 500;
+}

@@ -1,0 +1,31 @@
+.wrapper {
+  position: relative;
+  max-width: 360px;
+  margin: 0 auto;
+  padding-top: 32px;
+}
+
+.input {
+  padding: 15px 15px 15px 45px;
+  border: none;
+  border-radius: 10px;
+  width: 300px;
+  outline: none;
+  background-color: #20293a;
+}
+
+.searchButton {
+  position: absolute;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+.img {
+  display: block;
+  padding: 10px;
+}
